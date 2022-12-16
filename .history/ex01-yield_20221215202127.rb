@@ -12,11 +12,3 @@ print_result do
   creature = "walrus"
   "I am the #{creature}!"
 end
-
-# Check this out: blocks have access to variables outside of their definition
-shopping_list = [:milk, :eggs, :cheese]
-print_result do
-  # select one at random
-  important_item = shopping_list.sample
-  "I hope I don't forget #{important_item}!"
-end
